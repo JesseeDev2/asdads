@@ -1,0 +1,1086 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #6b54b6;
+    color: white;
+}
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #8960aa;
+    outline: #8960aa solid 1px;
+    border-radius: 2px;
+}
+body {
+    background-color: #0a101c;
+    min-height: 100vh;
+    padding-right: 0 !important;
+}
+html {
+    min-height: 100vh;
+    background-color: #0a101c;
+}
+.toplogo {
+    text-align: center;
+}
+.logo {
+    filter: drop-shadow(1px 1px 22px rgba(119, 5, 134, 0.5));
+    -webkit-filter: drop-shadow(1px 1px 22px rgba(119, 5, 134, 0.5));
+    pointer-events: none;
+}
+.payment {
+    background-color: #0a101c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paymenttypes {
+    background-color: #101322;
+    width: 1200px;
+    margin: 0 auto;
+	border-radius: 10px;
+}
+.ribbon {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    text-align: right;
+}
+.ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#9A3CC9 0%, #714DA7 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px;
+    right: -21px;
+}
+.ribbon span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid #714DA7;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #714DA7;
+}
+.faq h1,
+.welcome h1 {
+    color: white;
+}
+.faq h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+}
+.faq,
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-lg-4 {
+    margin-bottom: 4rem;
+}
+.back {
+    background-color: #101322;
+    height: 100%;
+    width: 1200px;
+    margin: 2.5rem auto 0;
+	border-radius: 10px;
+}
+.faq .back .divtext,
+.welcome .back .divtext {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.divtextp {
+	font-family: 'Roboto', 'sans-serif';
+	font-size: 19px;
+	font-weight: 100;
+}
+
+.nav {
+    margin: 1rem;
+    font-size: 20px;
+    text-decoration: none;
+}
+.back .border1 h5 {
+    font-size: 2.5rem;
+}
+.flex {
+    max-width: 500px;
+    color: #fff;
+    list-style: none;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.nav .container a .item {
+    text-transform: uppercase;
+    color: rgb(197, 197, 197);
+}
+.nav .container a .item:hover {
+    color: #fff;
+}
+.nav .container a:hover {
+    text-decoration: none;
+}
+.nav .container a .active {
+    color: #fff;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    width: fit-content;
+    border-color: #8960aa;
+}
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background-color: #141721;
+}
+.pricing hr {
+    margin: 1.5rem 0;
+}
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+.pricing .text-muted {
+    opacity: 0.7;
+}
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    width: 80%;
+    margin-right: auto;
+}
+.card-body {
+    padding: 0;
+    min-height: 100%;
+}
+.card-body .name {
+    margin-top: 1rem;
+}
+.card-body .name,
+h2 {
+    font-size: 20px;
+}
+.card-body .name,
+h2,
+p {
+    color: #fff;
+}
+.card-body p {
+    font-family: 'Roboto', 'sans-serif';
+    max-width: 33ch;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.description {
+	margin-top: 10px;
+}
+.card-body .name {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.hrlineshop {
+    width: 13%;
+    border: 0;
+    height: 6px;
+    background-image: linear-gradient(to right, #8960aa, #50219e);
+    border-radius: 10px;
+}
+section .btn {
+    background-color: #974ed3;
+    color: white !important;
+    width: 50%;
+    -webkit-filter: drop-shadow(1px 1px 10px rgba(119, 5, 134, 0.5));
+    filter: drop-shadow(1px 1px 22px rgba(119, 5, 134, 0.5));
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn:hover {
+    color: #fff;
+}
+.floating-btns {
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 2.6rem;
+    width: 4.2rem;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.2s;
+    -webkit-filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+    z-index: 1;
+}
+.floating-btns a {
+    color: white;
+    background: #9d4be0;
+    border-color: #9d4be0;
+    height: 4.2rem;
+    width: 4.2rem;
+    margin: 10px 0;
+    border-radius: 5.2rem 5.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.2s;
+    -webkit-filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.5));
+    z-index: 1;
+}
+.floating-btns a svg {
+    height: 50%;
+}
+.floating-btns a:hover {
+    background-color: #fff;
+    color: #9d4be0;
+    border-color: #fff;
+    transform: scale(1.05);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.top-link {
+    transition: all 0.15s ease-in-out;
+    background: #9d4be0;
+    border: none;
+    border: 0;
+    position: fixed;
+    bottom: 10px;
+    left: 30px;
+    z-index: 99;
+    width: 4.2rem;
+    height: 4.2rem;
+    font-size: 2.6rem;
+    border-radius: 5.2rem 5.2rem;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 200px;
+    font-size: 18px;
+    text-align: center;
+}
+.show {
+    visibility: visible;
+    opacity: 1;
+}
+.hide {
+    visibility: hidden;
+    opacity: 0;
+}
+.fa-arrow-up {
+    color: #fff;
+}
+.screen-reader-text {
+    position: absolute;
+    clip-path: inset(50%);
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    word-wrap: normal !important;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.screen-reader-text:focus {
+    display: block;
+    left: 5px;
+    z-index: 10;
+    clip-path: none;
+    background-color: #eee;
+    padding: 15px 23px 14px;
+    width: auto;
+    text-decoration: none;
+    line-height: normal;
+    color: #444;
+    font-size: 1em;
+    clip: auto !important;
+}
+.payment .paymenttypes .columns {
+    padding: 1rem;
+}
+.payment .paymenttypes .columns .column {
+    background-color: #101622;
+    margin: 1rem 0.5rem 0.5rem;
+	border-radius: 10px;
+}
+.payment .paymenttypes .columns .column img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.payment .paymenttypes .divtext {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0.5rem;
+    color: #fff;
+}
+.payment .paymenttypes .columns .column img {
+    filter: drop-shadow(1px 1px 22px rgba(119, 5, 134, 0.5));
+    -webkit-filter: drop-shadow(1px 1px 22px rgba(119, 5, 134, 0.5));
+}
+.modal-header {
+    color: #fff;
+    border-bottom: none;
+}
+.modal-content {
+    background-color: #101322;
+}
+.modal-footer button {
+    width: 100%;
+    background-color: #974ed3;
+    -webkit-filter: drop-shadow(1px 1px 10px rgba(119, 5, 134, 0.5));
+    filter: drop-shadow(1px 1px 22px rgba(119, 5, 134, 0.5));
+    border: none;
+}
+.modal-footer {
+    padding: 0;
+    border-top: 0;
+}
+.input-group .btn {
+    border: none;
+    background-color: #974ed3;
+    -webkit-filter: drop-shadow(1px 1px 10px rgba(119, 5, 134, 0.5));
+    filter: drop-shadow(1px 1px 22px rgba(119, 5, 134, 0.5));
+}
+.input-group {
+    width: 100%;
+    margin: -3rem auto 0;
+}
+.btn:hover {
+    background-color: #974ed3;
+}
+.hrline {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #8960aa, #50219e);
+}
+.card {
+    background-color: #101322;
+	color: #dee2e6 !important;
+}
+.card .buttons {
+    display: flex;
+    align-items: center;
+}
+.card .buttons label {
+    height: 50px;
+    margin: 10px 0 0;
+    width: 100%;
+    float: left;
+    background-color: #101322;
+    border-bottom: 0.5px solid #8960aa;
+    border-top: 0.5px solid #8960aa;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    cursor: default;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+	font-weight: 500;
+}
+.card .buttons label:hover {
+    background-image: linear-gradient(to right, #8960aa, #7b48ce);
+    border: none;
+}
+.card .buttons label:focus {
+    outline: none;
+    box-shadow: none;
+}
+.close:focus {
+    outline: none;
+    box-shadow: none;
+}
+.stock {
+    color: #fff;
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+.emailinput {
+    margin: 0 auto;
+}
+.btn {
+    background-image: linear-gradient(to right, #8960aa, #7b48ce);
+    border: none;
+}
+.emailinput input[type="email"] {
+    margin: 0 auto;
+    background-color: #101322;
+    color: #ffff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.paybtn .btn {
+    text-transform: uppercase;
+    width: 28%;
+    color: #fff;
+}
+.paybtn {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.accordion {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+.accordion .accordion-item .accordion-item-body .accordion-item-body-content {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 300
+}
+.accordion-item {
+    background-color: #221E36;
+    color: white;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.accordion .accordion-item .accordion-item-header {
+    font-family: 'Roboto', sans-serif;
+	font-weight: 500
+}
+.accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+.accordion-item-header.active::after {
+    content: "\2212";
+}
+.accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+}
+.article-page .back {
+    padding: 1rem;
+}
+.article-page > .back .article > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+}
+.article-page > .back .article > h2 {
+    color: #999;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    padding: 1rem;
+}
+.article-page > .back .article ol,
+.article-page > .back .article strong {
+    color: white;
+}
+.article-page > .back .article figure {
+    background: transparent;
+}
+.article-page > .back .article ul {
+    color: white;
+    list-style: initial;
+}
+.article-page > .back .article figure table {
+    background: white;
+}
+.article-page > .back .article figure table strong {
+    color: black;
+}
+.article-page .article-container {
+    padding: 0 1rem;
+}
+.article-page > .back .article .meta {
+    color: #888;
+}
+.articles > .back {
+    padding: 1rem;
+}
+.articles > .back > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+}
+.articles > .back > .article > h2 {
+    color: white;
+}
+.articles > .back > .article {
+    background-color: rgba(137, 96, 170, 0.15);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: .7rem;
+}
+.articles .article h3 {
+    color: #ccc;
+    font-size: 1rem;
+}
+.articles > .back > .article > .read-more {
+    text-decoration: none;
+    color: #8960aa;
+}
+.articles > .back > .article > .small-divider {
+    background-color: #8960aa;
+}
+.article-edit > .back {
+    padding: 1rem;
+}
+.article-edit > .back > .article > form > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+}
+.article-edit > .back > .article > form > h2 {
+    color: #999;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    padding: 1rem;
+}
+.article-edit > .back > .article > form > p {
+    padding: 0 1rem;
+}
+.article-edit #title {
+    background: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+.article-edit #subtitle,
+.article-edit #tags {
+    background: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    overflow: hidden;
+}
+.article-edit .ck.ck-editor__main > .ck-editor__editable {
+    background: transparent;
+    color: white;
+}
+.article-create > .back {
+    padding: 1rem;
+}
+.article-create > .back > .article > form > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+}
+.article-create > .back > .article > form > h2 {
+    color: #999;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+    padding: 1rem;
+}
+.article-create > .back > .article > form > p {
+    padding: 0 1rem;
+}
+.article-create #title {
+    background: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+.article-create #subtitle,
+.article-create #tags {
+    background: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    overflow: hidden;
+}
+.article-create .ck.ck-editor__main > .ck-editor__editable {
+    background: transparent;
+    color: white;
+}
+.product-create > .back > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+}
+.product-create .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background-color: #141721;
+}
+.product-create .card h1 input,
+.product-create .card textarea {
+    color: white;
+    background: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+.product-create #category_id {
+    background: transparent;
+    color: #888;
+    border: none;
+}
+.product-create #create-product > div > div:nth-child(1) > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.product-create #create-product > div > div:nth-child(1) input {
+    background: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.product-create #create-product > div > div:nth-child(2) > div > div > span {
+    display: flex;
+    cursor: auto;
+}
+.product-create #create-product > div > div:nth-child(2) > div > div > span > input {
+    background: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+.product-create #create-product > div > div:nth-child(2) > div > div > span > input::placeholder {
+    color: #ccc;
+}
+.product-edit > .back > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+}
+.product-edit .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background-color: #141721;
+}
+.product-edit .card h1 input,
+.product-edit .card textarea {
+    color: white;
+    background: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+.product-edit #category_id {
+    background: transparent;
+    color: #888;
+    border: none;
+}
+.product-edit #edit-product > div > div:nth-child(1) > div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.product-edit #edit-product > div > div:nth-child(1) input {
+    background: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.product-edit #edit-product > div > div:nth-child(2) > div > div > span {
+    display: flex;
+    cursor: auto;
+}
+.product-edit #edit-product > div > div:nth-child(2) > div > div > span > input {
+    background: transparent;
+    color: white;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+.product-edit #edit-product > div > div:nth-child(2) > div > div > span > input::placeholder {
+    color: #ccc;
+}
+.invoice > .back > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+}
+.invoice .card-delivery h1 {
+    color: #fff;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+}
+.invoice .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    background-color: #141721;
+    display:flex;
+    flex-direction:row;
+}
+.invoice .card .card-delivery > div {
+    height: 75%;
+}
+.invoice .back {
+    width: 1000px;
+}
+.invoice .card-delivery > h2 {
+    display:flex;
+}
+.invoice .card-delivery input {
+    background:none;
+    border:#8960aa 1px solid;
+    color:white;
+}
+.invoice .card-delivery > h2 > span {
+    margin: 0px 10px;
+    color: #8960aa;
+}
+.invoice .card textarea {
+    width: 100%;
+    height: 100%;
+    color: white;
+    border: none;
+    text-align: left;
+    padding: 1rem;
+    border: 0px solid white;
+    border-radius:5px;
+    background-image: linear-gradient(to right, #8960aa50, #7b48ce50);
+}
+.invoice .card h1 input {
+    color: white;
+    background: transparent;
+    border: none;
+    text-align: center;
+    width: 100%;
+}
+.invoice .card-body {
+    width:25%;
+    text-align:left;
+}
+.invoice .card-delivery {
+    padding: 2rem;
+    width:75%;
+}
+.invoice .card-delivery > div > p {
+    opacity:.75;
+}
+.invoice .infos div {
+    display: flex;
+    flex-direction:column;
+}
+.invoice .topcont {
+    padding:1rem;
+}
+.invoice .topcont > p:nth-child(2) {
+    opacity:.75;
+}
+.invoice p {
+    margin: 0;
+    padding: 0;
+}
+.invoice .infos > div > p:nth-child(1) {
+    opacity: .75;
+}
+.invoice > div > div > div > div > div > div > div:nth-child(1) > h2:nth-child(2) {
+    overflow: hidden;
+    max-width: 250px;
+}
+.invoice > div > div > div > div > div > div {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
+.login > .back > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000;
+}
+.login > .back form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.login > .back form #email,
+.login > .back form #password {
+    color: white;
+    background: transparent;
+    border: none;
+}
+.login > .back form label {
+    color: white;
+}
+.login > .back form .btn {
+    background-color: #974ed3;
+    -webkit-filter: drop-shadow(1px 1px 10px rgba(119, 5, 134, 0.5));
+    filter: drop-shadow(1px 1px 22px rgba(119, 5, 134, 0.5));
+    border: none;
+}
+.login > .back form .login-btn {
+    width: 15%;
+}
+.login > .back form .forgot-btn {
+    width: 25%;
+    background-image: linear-gradient(to right, #aa8c60, #ce9f48);
+    -webkit-filter: drop-shadow(1px 1px 10px rgba(134, 93, 5, 0.5));
+    filter: drop-shadow(1px 1px 22px rgba(134, 93, 5, 0.5));
+    border: none;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featurestypes {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #101322;
+	border-radius: 10px;
+}
+.featurestypes h3 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-top: 1rem;
+}
+.featurestypes .container .col-sm-4 {
+    background-color: #101622;
+    margin-bottom: 2rem;
+    height: 255px;
+    border-left: 7px solid #101322;
+    border-right: 7px solid #101322;
+    margin-top: 2rem;
+}
+.featurestypes .container .col-sm-4 button {
+    background-color: #8960aa;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-size: 40px;
+    cursor: default;
+    margin-top: 1rem;
+}
+.featurestypes .container .col-sm-4 h2 {
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 24px;
+}
+.featurestypes .container .col-sm-4 p {
+	color: #fff;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+}
+@media only screen and (max-width: 1199px) {
+    .featurestypes .container .col-sm-4 {
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .features .featurestypes {
+        width: 750px;
+        border: 0 solid transparent;
+    }
+    .featurestypes .container .col-sm-4 {
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 796px){
+    .features .featurestypes {
+        width: 530px;
+    }
+    .nav {
+        margin:0;
+    }
+    .flex {
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .featurestypes .container .col-sm-4 {
+        height: 100%;
+        min-width: 100%;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .featurestypes {
+        min-height: 550px;
+    }
+}
+@media only screen and (max-width: 628px){
+    .features .featurestypes {
+        width: 330px;
+    }
+}
+@media only screen and (max-width: 620px){
+    .features .featurestypes {
+        width: 530px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .features .featurestypes {
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .featurestypes .container .col-sm-4 {
+        border-left: 15px solid #101322;
+        border-right: 15px solid #101322;
+    }
+}
+@media only screen and (max-width: 476px){
+    .features .featurestypes {
+        width: 390px;
+    }
+}
+
+    .trustpilot-widget {
+        position: relative;
+		margin-left: auto;
+		margin-right: auto;
+    }
+	
+    .footer {
+        background-color: #101322;
+        margin-top: 2.5rem;
+        padding: 1.5rem;
+    }
+
+	.footer .branding {
+		align-items: center;
+	}	
+
+	.footer .branding img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	.footer .branding p {
+		margin-top: -2rem;
+		font-size: 20px;
+		font-family: 'Roboto', 'sans-serif';
+		font-weight: 300;
+		text-align: center;
+	}	
+	
+	.footer .links {
+		text-align: center;
+
+	}
+	
+	
+	.footer a:link, a:visited {
+		color: #9d4be0;
+		font-family: 'Roboto', 'sans-serif';
+		font-size: 18px;
+		font-weight: 500;
+		padding-right: 30px;
+	}

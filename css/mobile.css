@@ -1,0 +1,341 @@
+@media only screen and (max-width: 991px) {
+    .pricing .card {
+        margin: 5rem;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    html {
+        background-color: #101322;
+        border: 0px solid transparent;
+        min-height: 100vh;
+    }
+
+    .card-body {
+        min-height: 100%;
+    }
+
+    .pricing .btn {
+        margin-bottom: 2rem;
+    }
+
+    .backpurchase {
+        margin-top: 20rem;
+        width: 750px;
+        border: 0 solid transparent;
+    }
+
+    .payment .paymenttypes {
+        width: 750px;
+        border: 0 solid transparent;
+    }
+
+
+    .border1 {
+        border: 0px solid #8960aa;
+
+    }
+
+    .flex {
+        color: #fff;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .payment .paymenttypes .columns .column img {
+        min-width: 50%;
+    }
+
+    .payment .paymenttypes .columns .column .paysafe {
+        min-width: 70%;
+    }
+
+    .payment .paymenttypes .columns .column .applepay {
+        min-width: 70%;
+    }
+
+    .payment .paymenttypes .columns .column .ideal {
+        min-width: 70%;
+    }
+
+
+}
+
+@media only screen and (max-width: 360px) {
+    .card-body {
+        min-height: 100%;
+    }
+
+    .pricing .btn {
+        margin-bottom: 2rem;
+    }
+
+
+    .nav li {
+        display: block;
+        margin: -10px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    .card-body {
+        min-height: 100%;
+    }
+
+    .pricing .btn {
+        margin-bottom: 2rem;
+    }
+
+    .nav {
+        text-align: center;
+        padding: 0rem 10rem;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .card-body {
+        min-height: 100%;
+    }
+
+    .pricing .btn {
+        margin-bottom: 2rem;
+    }
+
+    .nav {
+        text-align: center;
+        padding: 0rem 10rem;
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .pricing .card {
+        width: 80%;
+    }
+
+    .card-body {
+        min-height: 100%;
+    }
+
+    .pricing .btn {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 559px) {
+    .nav {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 504px) {
+    .nav li a {
+        margin: 5rem;
+
+    }
+
+    li:hover,
+    li:focus {
+        background-size: 0% 2px;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    .card-body {
+        min-height: 100%;
+    }
+
+    .pricing .btn {
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 460px) {
+    .card-body {
+        min-height: 100%;
+    }
+
+    .pricing .btn {
+        margin-bottom: 2rem;
+    }
+
+    .nav {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 397px) {
+    .nav li {
+        float: left;
+    }
+
+    .card-body {
+        min-height: 100%;
+    }
+
+    .pricing .btn {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 383px) {
+
+    .nav li {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 473px) {
+    .purchasing-cards .backpurchase .minecrafttext {
+        font-size: 30px;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 628px) {
+    .backpurchase {
+        width: 330px;
+    }
+
+    .payment .paymenttypes {
+        width: 330px;
+    }
+}
+
+
+@media only screen and (max-width: 620px) {
+    .backpurchase {
+        width: 530px;
+    }
+
+    .payment .paymenttypes {
+        width: 530px;
+    }
+}
+
+@media only screen and (max-width: 796px) {
+    .pricing .card {
+        width: 80%;
+    }
+
+    .backpurchase {
+        width: 530px;
+    }
+
+    .payment .paymenttypes {
+        width: 530px;
+    }
+
+
+    .payment .paymenttypes .columns .column img {
+        min-width: 70%;
+    }
+
+    .payment .paymenttypes .columns .column .paysafe {
+        min-width: 100%;
+    }
+
+    .payment .paymenttypes .columns .column .applepay {
+        min-width: 100%;
+    }
+
+    .payment .paymenttypes .columns .column .ideal {
+        min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+
+    .backpurchase {
+        width: 450px;
+    }
+
+    .payment .paymenttypes {
+        width: 450px;
+    }
+}
+
+
+
+@media only screen and (max-width: 476px) {
+
+    .backpurchase {
+        width: 390px;
+    }
+
+    .payment .paymenttypes {
+        width: 390px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .backpurchase {
+        width: 300px;
+    }
+
+    .payment .paymenttypes {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        background-color: #101322;
+        border: 0px solid transparent;
+        min-height: 100vh;
+    }
+
+    .payment .paymenttypes .columns {
+        padding: 1rem;
+    }
+
+    .payment .paymenttypes .columns .column {
+        height: 50px;
+        margin: 1rem;
+    }
+
+    .payment .paymenttypes .columns {
+        margin-bottom: -1rem;
+    }
+
+    .paymenttypes {
+        min-height: 550px;
+    }
+
+    .payment .paymenttypes .columns .column img {
+        min-width: 40%;
+        height: 50px;
+    }
+
+    .payment .paymenttypes .columns .column .paysafe {
+        min-width: 2%;
+        height: 50px;
+
+    }
+
+    .payment .paymenttypes .columns .column .applepay {
+        min-width: 5%;
+        height: 50px;
+
+    }
+
+    .payment .paymenttypes .columns .column .ideal {
+        min-width: 1%;
+    }
+
+    .payment .paymenttypes .columns .column {
+        height: 20%;
+    }
+}
